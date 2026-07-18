@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "6a587cca089853bd5f33cd4a",
+    "name": "General John Doe",
+    "email": "admin@military.mil",
+    "passwordHash": "$2a$10$ZZLWYZL3FZEviHRgsbLkAumPobur7PWkHex5Daocd1xQOu80qD6AG",
+    "role": "Admin",
+    "baseId": null,
+    "createdAt": "2026-07-16T06:40:10.367Z",
+    "updatedAt": "2026-07-16T06:40:10.367Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd4c",
+    "name": "Colonel Sarah Connor",
+    "email": "commander.alpha@military.mil",
+    "passwordHash": "$2a$10$dv8HQ6Yvcidy/W7Xh6PZ.eQgvfe9VYl2fgRe/9p1lFPky6cdiWSEC",
+    "role": "BaseCommander",
+    "baseId": "6a587cc9089853bd5f33cd3a",
+    "createdAt": "2026-07-16T06:40:10.450Z",
+    "updatedAt": "2026-07-16T06:40:10.450Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd4e",
+    "name": "Colonel John Connor",
+    "email": "commander.beta@military.mil",
+    "passwordHash": "$2a$10$KICk/hP9K5FMoi5NRQaKKuruHrXXxlsn2PyU58KK4FBUb.N5zjmJe",
+    "role": "BaseCommander",
+    "baseId": "6a587cca089853bd5f33cd40",
+    "createdAt": "2026-07-16T06:40:10.516Z",
+    "updatedAt": "2026-07-16T06:40:10.516Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd50",
+    "name": "Major James Carter",
+    "email": "logistics@military.mil",
+    "passwordHash": "$2a$10$8Mx9kQ5IYPvDHsXwDwEb8e5btsPWLTAJwknPag5Agy8r1zJVorJxS",
+    "role": "LogisticsOfficer",
+    "baseId": null,
+    "createdAt": "2026-07-16T06:40:10.582Z",
+    "updatedAt": "2026-07-16T06:40:10.582Z",
+    "__v": 0
+  }
+]

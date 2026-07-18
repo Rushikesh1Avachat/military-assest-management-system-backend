@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "6a587cca089853bd5f33cd44",
+    "name": "M16 Rifle",
+    "type": "Weapon",
+    "unit": "Piece",
+    "description": "Standard infantry assault rifle, 5.56mm.",
+    "createdAt": "2026-07-16T06:40:10.362Z",
+    "updatedAt": "2026-07-16T06:40:10.362Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd46",
+    "name": "HMMWV Tactical Vehicle",
+    "type": "Vehicle",
+    "unit": "Vehicle",
+    "description": "High Mobility Multipurpose Wheeled Vehicle.",
+    "createdAt": "2026-07-16T06:40:10.364Z",
+    "updatedAt": "2026-07-16T06:40:10.364Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd48",
+    "name": "5.56mm Ammunition",
+    "type": "Ammunition",
+    "unit": "Box",
+    "description": "5.56x45mm NATO ammunition box (1,000 rounds per box).",
+    "createdAt": "2026-07-16T06:40:10.366Z",
+    "updatedAt": "2026-07-16T06:40:10.366Z",
+    "__v": 0
+  }
+]

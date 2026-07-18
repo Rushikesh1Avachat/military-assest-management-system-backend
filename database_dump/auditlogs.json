@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "6a587cca089853bd5f33cd6c",
+    "userId": "6a587cca089853bd5f33cd50",
+    "action": "CREATE",
+    "module": "Purchase",
+    "referenceId": "6a587cca089853bd5f33cd64",
+    "description": "Initial seed purchase: 50 M16 Rifles for Alpha Base",
+    "oldData": null,
+    "newData": null,
+    "timestamp": "2026-07-06T06:40:10.659Z",
+    "createdAt": "2026-07-16T06:40:10.668Z",
+    "updatedAt": "2026-07-16T06:40:10.668Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd6e",
+    "userId": "6a587cca089853bd5f33cd50",
+    "action": "CREATE",
+    "module": "Transfer",
+    "referenceId": "6a587cca089853bd5f33cd66",
+    "description": "Initial seed transfer: 20 M16 Rifles from Alpha Base to Beta Base",
+    "oldData": null,
+    "newData": null,
+    "timestamp": "2026-07-11T06:40:10.659Z",
+    "createdAt": "2026-07-16T06:40:10.670Z",
+    "updatedAt": "2026-07-16T06:40:10.670Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd70",
+    "userId": "6a587cca089853bd5f33cd4c",
+    "action": "CREATE",
+    "module": "Assignment",
+    "referenceId": "6a587cca089853bd5f33cd68",
+    "description": "Initial seed assignment: 30 M16 Rifles to Alpha Infantry Unit 101",
+    "oldData": null,
+    "newData": null,
+    "timestamp": "2026-07-13T06:40:10.659Z",
+    "createdAt": "2026-07-16T06:40:10.672Z",
+    "updatedAt": "2026-07-16T06:40:10.672Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd72",
+    "userId": "6a587cca089853bd5f33cd4c",
+    "action": "CREATE",
+    "module": "Expenditure",
+    "referenceId": "6a587cca089853bd5f33cd6a",
+    "description": "Initial seed expenditure: 5 boxes of 5.56mm Ammunition used",
+    "oldData": null,
+    "newData": null,
+    "timestamp": "2026-07-14T06:40:10.659Z",
+    "createdAt": "2026-07-16T06:40:10.674Z",
+    "updatedAt": "2026-07-16T06:40:10.674Z",
+    "__v": 0
+  }
+]

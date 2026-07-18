@@ -1,0 +1,15 @@
+[
+  {
+    "_id": "6a587cca089853bd5f33cd68",
+    "assetId": "6a587cca089853bd5f33cd44",
+    "baseId": "6a587cc9089853bd5f33cd3a",
+    "quantity": 30,
+    "assignedTo": "Alpha Infantry Unit 101",
+    "assignedBy": "6a587cca089853bd5f33cd4c",
+    "assignmentDate": "2026-07-13T06:40:10.659Z",
+    "remarks": "Issued rifles for upcoming training exercise",
+    "createdAt": "2026-07-16T06:40:10.664Z",
+    "updatedAt": "2026-07-16T06:40:10.664Z",
+    "__v": 0
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "_id": "6a587cca089853bd5f33cd52",
+    "assetId": "6a587cca089853bd5f33cd44",
+    "baseId": "6a587cc9089853bd5f33cd3a",
+    "openingBalance": 100,
+    "currentStock": 100,
+    "lastUpdated": "2026-07-16T06:40:10.647Z",
+    "createdAt": "2026-07-16T06:40:10.647Z",
+    "updatedAt": "2026-07-16T06:40:10.647Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd54",
+    "assetId": "6a587cca089853bd5f33cd46",
+    "baseId": "6a587cc9089853bd5f33cd3a",
+    "openingBalance": 10,
+    "currentStock": 10,
+    "lastUpdated": "2026-07-16T06:40:10.649Z",
+    "createdAt": "2026-07-16T06:40:10.650Z",
+    "updatedAt": "2026-07-16T06:40:10.650Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd56",
+    "assetId": "6a587cca089853bd5f33cd48",
+    "baseId": "6a587cc9089853bd5f33cd3a",
+    "openingBalance": 200,
+    "currentStock": 195,
+    "lastUpdated": "2026-07-16T06:40:10.651Z",
+    "createdAt": "2026-07-16T06:40:10.651Z",
+    "updatedAt": "2026-07-16T06:40:10.651Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd58",
+    "assetId": "6a587cca089853bd5f33cd44",
+    "baseId": "6a587cca089853bd5f33cd40",
+    "openingBalance": 80,
+    "currentStock": 100,
+    "lastUpdated": "2026-07-16T06:40:10.652Z",
+    "createdAt": "2026-07-16T06:40:10.652Z",
+    "updatedAt": "2026-07-16T06:40:10.652Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd5a",
+    "assetId": "6a587cca089853bd5f33cd46",
+    "baseId": "6a587cca089853bd5f33cd40",
+    "openingBalance": 5,
+    "currentStock": 5,
+    "lastUpdated": "2026-07-16T06:40:10.653Z",
+    "createdAt": "2026-07-16T06:40:10.653Z",
+    "updatedAt": "2026-07-16T06:40:10.653Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd5c",
+    "assetId": "6a587cca089853bd5f33cd48",
+    "baseId": "6a587cca089853bd5f33cd40",
+    "openingBalance": 120,
+    "currentStock": 120,
+    "lastUpdated": "2026-07-16T06:40:10.654Z",
+    "createdAt": "2026-07-16T06:40:10.654Z",
+    "updatedAt": "2026-07-16T06:40:10.654Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd5e",
+    "assetId": "6a587cca089853bd5f33cd44",
+    "baseId": "6a587cca089853bd5f33cd42",
+    "openingBalance": 40,
+    "currentStock": 40,
+    "lastUpdated": "2026-07-16T06:40:10.656Z",
+    "createdAt": "2026-07-16T06:40:10.656Z",
+    "updatedAt": "2026-07-16T06:40:10.656Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd60",
+    "assetId": "6a587cca089853bd5f33cd46",
+    "baseId": "6a587cca089853bd5f33cd42",
+    "openingBalance": 2,
+    "currentStock": 2,
+    "lastUpdated": "2026-07-16T06:40:10.657Z",
+    "createdAt": "2026-07-16T06:40:10.657Z",
+    "updatedAt": "2026-07-16T06:40:10.657Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a587cca089853bd5f33cd62",
+    "assetId": "6a587cca089853bd5f33cd48",
+    "baseId": "6a587cca089853bd5f33cd42",
+    "openingBalance": 50,
+    "currentStock": 50,
+    "lastUpdated": "2026-07-16T06:40:10.658Z",
+    "createdAt": "2026-07-16T06:40:10.658Z",
+    "updatedAt": "2026-07-16T06:40:10.658Z",
+    "__v": 0
+  }
+]
