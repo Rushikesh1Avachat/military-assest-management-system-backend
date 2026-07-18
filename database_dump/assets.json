@@ -1,32 +1,42 @@
 [
   {
-    "_id": "6a587cca089853bd5f33cd44",
+    "_id": "6a5b3f0c8fc88b12e7dc3f27",
     "name": "M16 Rifle",
     "type": "Weapon",
     "unit": "Piece",
     "description": "Standard infantry assault rifle, 5.56mm.",
-    "createdAt": "2026-07-16T06:40:10.362Z",
-    "updatedAt": "2026-07-16T06:40:10.362Z",
+    "createdAt": "2026-07-18T08:53:32.534Z",
+    "updatedAt": "2026-07-18T08:53:32.534Z",
     "__v": 0
   },
   {
-    "_id": "6a587cca089853bd5f33cd46",
+    "_id": "6a5b3f0c8fc88b12e7dc3f29",
     "name": "HMMWV Tactical Vehicle",
     "type": "Vehicle",
     "unit": "Vehicle",
     "description": "High Mobility Multipurpose Wheeled Vehicle.",
-    "createdAt": "2026-07-16T06:40:10.364Z",
-    "updatedAt": "2026-07-16T06:40:10.364Z",
+    "createdAt": "2026-07-18T08:53:32.548Z",
+    "updatedAt": "2026-07-18T08:53:32.548Z",
     "__v": 0
   },
   {
-    "_id": "6a587cca089853bd5f33cd48",
+    "_id": "6a5b3f0c8fc88b12e7dc3f2b",
     "name": "5.56mm Ammunition",
     "type": "Ammunition",
     "unit": "Box",
     "description": "5.56x45mm NATO ammunition box (1,000 rounds per box).",
-    "createdAt": "2026-07-16T06:40:10.366Z",
-    "updatedAt": "2026-07-16T06:40:10.366Z",
+    "createdAt": "2026-07-18T08:53:32.780Z",
+    "updatedAt": "2026-07-18T08:53:32.780Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5b44a759af3ed5a9767e12",
+    "name": "INSAS",
+    "type": "Weapon",
+    "unit": "Unit",
+    "description": "Older service rifle (being phased out)",
+    "createdAt": "2026-07-18T09:17:27.142Z",
+    "updatedAt": "2026-07-18T09:17:27.142Z",
     "__v": 0
   }
 ]

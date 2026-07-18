@@ -1,15 +1,28 @@
 [
   {
-    "_id": "6a587cca089853bd5f33cd64",
-    "assetId": "6a587cca089853bd5f33cd44",
-    "baseId": "6a587cc9089853bd5f33cd3a",
+    "_id": "6a5b3f0d8fc88b12e7dc3f49",
+    "assetId": "6a5b3f0c8fc88b12e7dc3f27",
+    "baseId": "6a5b3f0c8fc88b12e7dc3f21",
     "quantity": 50,
-    "purchaseDate": "2026-07-06T06:40:10.659Z",
+    "purchaseDate": "2026-07-08T08:53:33.327Z",
     "supplier": "Colt Manufacturing LLC",
     "remarks": "Standard replenishment order",
-    "addedBy": "6a587cca089853bd5f33cd50",
-    "createdAt": "2026-07-16T06:40:10.660Z",
-    "updatedAt": "2026-07-16T06:40:10.660Z",
+    "addedBy": "6a5b3f0d8fc88b12e7dc3f33",
+    "createdAt": "2026-07-18T08:53:33.328Z",
+    "updatedAt": "2026-07-18T08:53:33.328Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5b44b859af3ed5a9767e2e",
+    "assetId": "6a5b44a759af3ed5a9767e12",
+    "baseId": "6a5b447f59af3ed5a9767e06",
+    "quantity": 80,
+    "purchaseDate": "2026-07-18T00:00:00.000Z",
+    "supplier": "Me",
+    "remarks": "",
+    "addedBy": "6a5b3f0c8fc88b12e7dc3f2d",
+    "createdAt": "2026-07-18T09:17:44.839Z",
+    "updatedAt": "2026-07-18T09:17:44.839Z",
     "__v": 0
   }
 ]

@@ -1,15 +1,41 @@
 [
   {
-    "_id": "6a587cca089853bd5f33cd68",
-    "assetId": "6a587cca089853bd5f33cd44",
-    "baseId": "6a587cc9089853bd5f33cd3a",
+    "_id": "6a5b3f0d8fc88b12e7dc3f4d",
+    "assetId": "6a5b3f0c8fc88b12e7dc3f27",
+    "baseId": "6a5b3f0c8fc88b12e7dc3f21",
     "quantity": 30,
     "assignedTo": "Alpha Infantry Unit 101",
-    "assignedBy": "6a587cca089853bd5f33cd4c",
-    "assignmentDate": "2026-07-13T06:40:10.659Z",
+    "assignedBy": "6a5b3f0c8fc88b12e7dc3f2f",
+    "assignmentDate": "2026-07-15T08:53:33.327Z",
     "remarks": "Issued rifles for upcoming training exercise",
-    "createdAt": "2026-07-16T06:40:10.664Z",
-    "updatedAt": "2026-07-16T06:40:10.664Z",
+    "createdAt": "2026-07-18T08:53:33.347Z",
+    "updatedAt": "2026-07-18T08:53:33.347Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5b44f759af3ed5a9767e68",
+    "assetId": "6a5b3f0c8fc88b12e7dc3f27",
+    "baseId": "6a5b3f0c8fc88b12e7dc3f23",
+    "quantity": 90,
+    "assignedTo": "50",
+    "assignedBy": "6a5b3f0c8fc88b12e7dc3f2d",
+    "assignmentDate": "2026-07-18T00:00:00.000Z",
+    "remarks": "",
+    "createdAt": "2026-07-18T09:18:47.467Z",
+    "updatedAt": "2026-07-18T09:18:47.467Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5b453859af3ed5a9767ea6",
+    "assetId": "6a5b3f0c8fc88b12e7dc3f2b",
+    "baseId": "6a5b3f0c8fc88b12e7dc3f21",
+    "quantity": 15,
+    "assignedTo": "30",
+    "assignedBy": "6a5b3f0c8fc88b12e7dc3f2d",
+    "assignmentDate": "2026-07-18T00:00:00.000Z",
+    "remarks": "",
+    "createdAt": "2026-07-18T09:19:52.194Z",
+    "updatedAt": "2026-07-18T09:19:52.194Z",
     "__v": 0
   }
 ]

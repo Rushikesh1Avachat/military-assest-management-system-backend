@@ -2,6 +2,10 @@ const mongoose = require('mongoose');
 const fs = require('fs');
 const path = require('path');
 const dotenv = require('dotenv');
+const dns = require('dns');
+
+// Force Node to use a public DNS resolver for SRV lookups, matching db.js/seed.js.
+dns.setServers(["8.8.8.8", "8.8.4.4"]);
 
 dotenv.config({ path: path.join(__dirname, '../../.env') });
 

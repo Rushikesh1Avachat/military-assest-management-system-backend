@@ -1,26 +1,34 @@
 [
   {
-    "_id": "6a587cc9089853bd5f33cd3a",
+    "_id": "6a5b3f0c8fc88b12e7dc3f21",
     "name": "Alpha Base",
     "location": "Texas, USA",
-    "createdAt": "2026-07-16T06:40:10.003Z",
-    "updatedAt": "2026-07-16T06:40:10.003Z",
+    "createdAt": "2026-07-18T08:53:32.499Z",
+    "updatedAt": "2026-07-18T08:53:32.499Z",
     "__v": 0
   },
   {
-    "_id": "6a587cca089853bd5f33cd40",
+    "_id": "6a5b3f0c8fc88b12e7dc3f23",
     "name": "Beta Base",
     "location": "California, USA",
-    "createdAt": "2026-07-16T06:40:10.358Z",
-    "updatedAt": "2026-07-16T06:40:10.358Z",
+    "createdAt": "2026-07-18T08:53:32.512Z",
+    "updatedAt": "2026-07-18T08:53:32.512Z",
     "__v": 0
   },
   {
-    "_id": "6a587cca089853bd5f33cd42",
+    "_id": "6a5b3f0c8fc88b12e7dc3f25",
     "name": "Gamma Base",
     "location": "Kaiserslautern, Germany",
-    "createdAt": "2026-07-16T06:40:10.360Z",
-    "updatedAt": "2026-07-16T06:40:10.360Z",
+    "createdAt": "2026-07-18T08:53:32.523Z",
+    "updatedAt": "2026-07-18T08:53:32.523Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a5b447f59af3ed5a9767e06",
+    "name": "Omega Base",
+    "location": "Pune India",
+    "createdAt": "2026-07-18T09:16:47.628Z",
+    "updatedAt": "2026-07-18T09:16:47.628Z",
     "__v": 0
   }
 ]

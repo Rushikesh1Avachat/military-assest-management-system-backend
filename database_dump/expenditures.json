@@ -1,15 +1,15 @@
 [
   {
-    "_id": "6a587cca089853bd5f33cd6a",
-    "assetId": "6a587cca089853bd5f33cd48",
-    "baseId": "6a587cc9089853bd5f33cd3a",
+    "_id": "6a5b3f0d8fc88b12e7dc3f4f",
+    "assetId": "6a5b3f0c8fc88b12e7dc3f2b",
+    "baseId": "6a5b3f0c8fc88b12e7dc3f21",
     "quantity": 5,
     "reason": "Used",
-    "expendedBy": "6a587cca089853bd5f33cd4c",
-    "expenditureDate": "2026-07-14T06:40:10.659Z",
+    "expendedBy": "6a5b3f0c8fc88b12e7dc3f2f",
+    "expenditureDate": "2026-07-16T08:53:33.327Z",
     "remarks": "Ammunition consumed during firing range qualifications",
-    "createdAt": "2026-07-16T06:40:10.666Z",
-    "updatedAt": "2026-07-16T06:40:10.666Z",
+    "createdAt": "2026-07-18T08:53:33.355Z",
+    "updatedAt": "2026-07-18T08:53:33.355Z",
     "__v": 0
   }
 ]
