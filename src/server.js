@@ -37,20 +37,34 @@ const allowedOrigins = [
 ];
 
 // Middleware
+// NOTE: axios only sends a Bearer token header (no cookies), so credentials
+// are NOT required. With credentials:true the browser forbids a wildcard/
+// reflected origin, so we use an exact-origin match from the allowlist instead.
 app.use(
   cors({
     origin: (origin, callback) => {
+      // allow same-origin / non-browser tools (origin undefined) and listed origins
       if (!origin || allowedOrigins.includes(origin)) {
         callback(null, true);
       } else {
-        callback(null, true); // reflect any origin (open) — tighten later if needed
+        callback(new Error(`CORS not allowed for origin: ${origin}`));
       }
     },
-    credentials: true,
   })
 );
 app.use(express.json());
 app.use(morgan("dev"));
+
+// Block API calls when DB is not connected, with a clear message
+// (avoids a confusing generic 500 from every query).
+app.use("/api", (req, res, next) => {
+  if (!isDbConnected()) {
+    return res.status(503).json({
+      message: "Database unavailable. Check MongoDB Atlas Network Access / connection.",
+    });
+  }
+  next();
+});
 
 // API Routes
 app.use("/api/auth", authRoutes);
