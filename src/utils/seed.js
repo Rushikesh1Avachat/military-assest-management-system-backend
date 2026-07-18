@@ -77,33 +77,41 @@ const seedDB = async () => {
     console.log('Creating users...');
     const adminUser = await User.create({
       name: 'General John Doe',
-      email: 'admin@military.mil',
-      passwordHash: 'Admi123', // hooks hash this
+      email: 'admin@military.com',
+      passwordHash: 'Admin@123', // hooks hash this
       role: 'Admin',
       baseId: null
     });
 
     const alphaCommander = await User.create({
       name: 'Colonel Sarah Connor',
-      email: 'commander.alpha@military.mil',
-      passwordHash: 'CommanderPass123',
+      email: 'commander@military.com',
+      passwordHash: 'Commander@123',
       role: 'BaseCommander',
       baseId: alphaBase._id
     });
 
     const betaCommander = await User.create({
       name: 'Colonel John Connor',
-      email: 'commander.beta@military.mil',
-      passwordHash: 'CommanderPass123',
+      email: 'commander.beta@military.com',
+      passwordHash: 'Commander@123',
       role: 'BaseCommander',
       baseId: betaBase._id
     });
 
     const logisticsOfficer = await User.create({
       name: 'Major James Carter',
-      email: 'logistics@military.mil',
-      passwordHash: 'LogisticsPass123',
+      email: 'logistics@military.com',
+      passwordHash: 'Logistics@123',
       role: 'LogisticsOfficer',
+      baseId: null
+    });
+
+    const ownerUser = await User.create({
+      name: 'Rushikesh Avachat',
+      email: 'avachatrushikesh45@gmail.com',
+      passwordHash: 'Rushi123',
+      role: 'Admin',
       baseId: null
     });
     console.log('Users created.');

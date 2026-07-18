@@ -5,7 +5,8 @@ const { logTransaction } = require('../middleware/logger');
 
 const login = async (req, res) => {
   try {
-    const { email, password } = req.body;
+    const email = req.body.email ? req.body.email.trim().toLowerCase() : '';
+    const password = req.body.password ? req.body.password : '';
     if (!email || !password) {
       return res.status(400).json({ message: 'Email and password are required' });
     }
