@@ -6,30 +6,47 @@ const dns = require("dns");
 // though the OS resolver handles them fine.
 dns.setServers(["8.8.8.8", "8.8.4.4"]);
 
-const connectDB = async () => {
-  try {
-    console.log("MONGO_URI:", process.env.MONGO_URI);
+let isConnected = false;
 
-    const mongoUri =
-      process.env.MONGO_URI ||
-      "mongodb://localhost:27017/military-asset-management";
+const connectDB = async (retries = 5) => {
+  const mongoUri =
+    process.env.MONGO_URI ||
+    "mongodb://localhost:27017/military-asset-management";
 
-    const conn = await mongoose.connect(mongoUri, {
-      // Atlas SRV connections are sensitive to networking/DNS; these timeouts make failures clearer.
-      serverSelectionTimeoutMS: 10000,
-      connectTimeoutMS: 10000,
-      socketTimeoutMS: 45000,
-    });
-
-    console.log(`✅ MongoDB Connected: ${conn.connection.host}`);
-  } catch (err) {
-    console.error("❌ MongoDB Connection Failed");
-    console.error(err);
-
-    // Don’t crash the whole server; keep it running for health checks / frontend debugging.
-    // Routes that need DB will still fail gracefully when called.
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      console.log(`MongoDB connecting (attempt ${attempt}/${retries})...`);
+      const conn = await mongoose.connect(mongoUri, {
+        serverSelectionTimeoutMS: 10000,
+        connectTimeoutMS: 10000,
+        socketTimeoutMS: 45000,
+      });
+      console.log(`✅ MongoDB Connected: ${conn.connection.host}`);
+      isConnected = true;
+      return conn;
+    } catch (err) {
+      console.error(`❌ MongoDB Connection Failed (attempt ${attempt}):`, err.message);
+      if (attempt === retries) {
+        console.error("All MongoDB connection attempts failed. Server will run but DB calls will fail.");
+        isConnected = false;
+        return null;
+      }
+      await new Promise((r) => setTimeout(r, 2000));
+    }
   }
 };
 
+mongoose.connection.on("disconnected", () => {
+  console.warn("⚠️ MongoDB disconnected");
+  isConnected = false;
+});
+
+mongoose.connection.on("connected", () => {
+  isConnected = true;
+});
+
+const isDbConnected = () => isConnected;
+
 module.exports = connectDB;
+module.exports.isDbConnected = isDbConnected;
 
