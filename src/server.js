@@ -31,6 +31,7 @@ const PORT = process.env.PORT || 5000;
 // Allowed CORS origins (Vercel frontend + local dev)
 const allowedOrigins = [
   "https://frontend-military-assest-management-inky.vercel.app",
+  "https://frontend-military-assest-management-teal.vercel.app",
   "http://localhost:5173",
   "http://localhost:3000",
 ];
